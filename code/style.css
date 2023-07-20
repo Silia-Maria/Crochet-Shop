@@ -69,3 +69,37 @@ Hero Section
     text-decoration: none;
     color: black;
 }
+
+
+/* -----------------
+Product Section
+--------------------*/
+
+.card {
+    border: none !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+img .card-img-top {
+    height: 50% !important;
+}
+
+.card-body {
+    padding: 10px 0 !important;
+}
+
+.card-title {
+    color: #BD005B !important;
+}
+
+.buy-btn {
+    background-color: #BD005B;
+    color: white;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+}
